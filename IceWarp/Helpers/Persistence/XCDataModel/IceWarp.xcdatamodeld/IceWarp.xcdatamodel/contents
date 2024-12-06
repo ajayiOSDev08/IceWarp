@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24B91" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CDChannelList" representedClassName="CDChannelList" syncable="YES">
+        <attribute name="creator" optional="YES" attributeType="String"/>
+        <attribute name="groupEmail" optional="YES" attributeType="String"/>
+        <attribute name="groupFolderName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isMember" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CDLogin" representedClassName=".CDLogin" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="host" optional="YES" attributeType="String"/>
+    </entity>
+</model>
